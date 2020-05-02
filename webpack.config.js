@@ -1,8 +1,8 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
-const isDevelopment = process.env.NODE_ENV === 'development';
+const isDevelopment = process.env.NODE_ENV === 'development'
 
 module.exports = {
   mode: isDevelopment ? 'development' : 'production',
@@ -39,4 +39,4 @@ module.exports = {
     new CleanWebpackPlugin(),
   ],
   devtool: isDevelopment ? 'eval-source-map' : 'source-map',
-};
+}
