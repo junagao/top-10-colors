@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Juliane Nagao <julianens@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "@hot-loader/react-dom": "^16.13.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
