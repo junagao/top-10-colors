@@ -1,13 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Card, Preview, Title, Text } from './ColorItem.styles'
 
 const ColorItem = ({ name, hex, rgb }) => (
-  <div>
-    <div style={{ backgroundColor: hex }} />
-    <h2>{name}</h2>
-    <p rgb={rgb}>{hex}</p>
-    <p>{rgb}</p>
-  </div>
+  <Card>
+    <Preview hex={hex} />
+    <Title>{name}</Title>
+    <Text>{hex}</Text>
+    <Text>{rgb}</Text>
+  </Card>
 )
 
 ColorItem.propTypes = {
