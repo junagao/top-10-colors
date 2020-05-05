@@ -1,0 +1,74 @@
+{
+  "colors": [
+    {
+      "id": "b9780901-5fd7-4f7e-9547-53e6dea20b28",
+      "name": "tomato",
+      "hex": "#FF6347",
+      "rgb": "rgb(255, 99, 71)",
+      "rating": 0
+    },
+    {
+      "id": "feb754a6-16a5-42f2-949d-a0368f421952",
+      "name": "salmon",
+      "hex": "#FA8072",
+      "rgb": "rgb(250, 128, 114)",
+      "rating": 0
+    },
+    {
+      "id": "95fb72ff-9c86-42f8-a523-9136e02fa8d5",
+      "name": "gold",
+      "hex": "#FFD700",
+      "rgb": "rgb(255, 215, 0)",
+      "rating": 0
+    },
+    {
+      "id": "30bfd48d-5f8a-4592-95fc-2c7ed5ed4396",
+      "name": "yellowgreen",
+      "hex": "#9ACD32",
+      "rgb": "rgb(154, 205, 50)",
+      "rating": 0
+    },
+    {
+      "id": "453ee992-d498-42c5-94a9-fcc7d89f2240",
+      "name": "olivedrab",
+      "hex": "#6B8E23",
+      "rgb": "rgb(107, 142, 35)",
+      "rating": 0
+    },
+    {
+      "id": "1980925d-7a81-493e-8688-cddad82136d6",
+      "name": "darkturquoise",
+      "hex": "#00CED1",
+      "rgb": "rgb(0, 206, 209)",
+      "rating": 0
+    },
+    {
+      "id": "48f3775b-a20c-4331-bd14-db9b07fd4bb7",
+      "name": "royalblue",
+      "hex": "#4169E1",
+      "rgb": "rgb(65, 105, 225)",
+      "rating": 0
+    },
+    {
+      "id": "ddbac1f3-5e2d-4215-8014-fe2dc772ff9f",
+      "name": "rebeccapurple",
+      "hex": "#663399",
+      "rgb": "rgb(102, 51, 153)",
+      "rating": 0
+    },
+    {
+      "id": "d02211cd-fef7-4256-ba6d-618943167bb3",
+      "name": "mediumvioletred",
+      "hex": "#C71585",
+      "rgb": "rgb(199, 21, 133)",
+      "rating": 0
+    },
+    {
+      "id": "cacb9edc-5163-4448-bb6d-706ea35599db",
+      "name": "silver",
+      "hex": "#C0C0C0",
+      "rgb": "rgb(192, 192, 192)",
+      "rating": 0
+    }
+  ]
+}
