@@ -1,12 +1,13 @@
 import React from 'react'
 import { hot } from 'react-hot-loader/root'
 import { ColorList } from 'components'
+import { Container, Header } from './App.styles'
 
 const App = () => (
-  <div>
-    <h1>Top 10 favorite colors</h1>
+  <Container>
+    <Header>Top 10 favorite colors</Header>
     <ColorList />
-  </div>
+  </Container>
 )
 
 export default hot(App)
