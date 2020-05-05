@@ -4,7 +4,7 @@ import { hot } from 'react-hot-loader/root'
 import { connect } from 'react-redux'
 import getColors from 'actions/colors'
 import { Header, ColorList } from 'components'
-import { Container } from './App.styles'
+import AppContainer from './App.styles'
 
 class App extends React.Component {
   componentDidMount() {
@@ -16,10 +16,10 @@ class App extends React.Component {
     const { colors } = this.props
 
     return (
-      <Container>
+      <AppContainer>
         <Header />
         <ColorList colors={colors} />
-      </Container>
+      </AppContainer>
     )
   }
 }
