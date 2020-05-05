@@ -1,9 +1,9 @@
 import React from 'react'
-import { colors } from 'data/data.json'
+import { arrayOf, shape, string } from 'prop-types'
 import { ColorItem } from 'components'
 import List from './ColorList.styles'
 
-const ColorList = () => (
+const ColorList = ({ colors }) => (
   <List>
     {colors.map(({ id, name, hex, rgb }) => (
       <li key={id}>
@@ -12,5 +12,16 @@ const ColorList = () => (
     ))}
   </List>
 )
+
+ColorList.propTypes = {
+  colors: arrayOf(
+    shape({
+      id: string,
+      name: string,
+      hex: string,
+      rgb: string,
+    }),
+  ).isRequired,
+}
 
 export default ColorList
