@@ -1,5 +1,5 @@
 import { css } from '@emotion/core'
-import theme from 'utils/theme'
+import theme from 'theme'
 
 const globalStyles = css`
   html {

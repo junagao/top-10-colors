@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import theme from 'utils/theme'
+import theme from 'theme'
 
 const HeaderContainer = styled.h1`
   color: ${theme.colors.primary};
