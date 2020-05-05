@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import theme from 'utils/theme'
+import theme from 'theme'
 
 const List = styled.ul`
   list-style: none;
