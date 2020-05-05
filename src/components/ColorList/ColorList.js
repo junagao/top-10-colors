@@ -7,7 +7,7 @@ const ColorList = () => (
   <List>
     {colors.map(({ id, name, hex, rgb }) => (
       <li key={id}>
-        <ColorItem id={id} name={name} hex={hex} rgb={rgb} />
+        <ColorItem name={name} hex={hex} rgb={rgb} />
       </li>
     ))}
   </List>
