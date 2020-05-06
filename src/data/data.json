@@ -8,13 +8,6 @@
       "rating": 0
     },
     {
-      "id": "feb754a6-16a5-42f2-949d-a0368f421952",
-      "name": "salmon",
-      "hex": "#FA8072",
-      "rgb": "rgb(250, 128, 114)",
-      "rating": 0
-    },
-    {
       "id": "95fb72ff-9c86-42f8-a523-9136e02fa8d5",
       "name": "gold",
       "hex": "#FFD700",
@@ -54,6 +47,13 @@
       "name": "rebeccapurple",
       "hex": "#663399",
       "rgb": "rgb(102, 51, 153)",
+      "rating": 0
+    },
+    {
+      "id": "feb754a6-16a5-42f2-949d-a0368f421952",
+      "name": "hotpink",
+      "hex": "#FF69B4",
+      "rgb": "rgb(255, 105, 180)",
       "rating": 0
     },
     {

@@ -1,3 +1,5 @@
 export { default as ColorList } from 'components/ColorList'
 export { default as ColorItem } from 'components/ColorItem'
 export { default as Header } from 'components/Header'
+export { default as Rating } from 'components/Rating'
+export { default as Star } from 'components/Star'
