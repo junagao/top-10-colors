@@ -1,3 +1,2 @@
-const GET_COLORS = 'GET_COLORS'
-
-export default GET_COLORS
+export const GET_COLORS = 'GET_COLORS'
+export const RATE_COLOR = 'RATE_COLOR'
