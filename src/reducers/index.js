@@ -1,7 +1,13 @@
-import { GET_COLORS, RATE_COLOR } from '../actions/types'
+import {
+  GET_COLORS,
+  RATE_COLOR,
+  RANDOM_RATE_COLOR,
+  TOGGLE_RANDOM_RATING,
+} from '../actions/types'
 
 const initialState = {
   colors: [],
+  isRandomRating: false,
 }
 
 export default function reducer(state = initialState, action) {
@@ -14,6 +20,16 @@ export default function reducer(state = initialState, action) {
       )
       return { ...state, colors: updatedColors }
     }
+    case RANDOM_RATE_COLOR: {
+      const updatedColors = state.colors.map((color, index) =>
+        index !== action.colorIndex
+          ? color
+          : { ...color, rating: action.rating },
+      )
+      return { ...state, colors: updatedColors }
+    }
+    case TOGGLE_RANDOM_RATING:
+      return { ...state, isRandomRating: !state.isRandomRating }
     default:
       return state
   }
