@@ -17,9 +17,12 @@ describe('Button', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  it('should render one ButtonStyled element of type `button`', () => {
+  it('should render one ButtonStyled element of type `button` with prop `reset`', () => {
     expect(wrapper.find('ButtonStyled').length).toEqual(1)
     expect(wrapper.find('ButtonStyled').prop('type')).toEqual('button')
+    expect(wrapper.find('ButtonStyled').prop('reset')).toBeFalsy()
+    wrapper.setProps({ reset: true })
+    expect(wrapper.find('ButtonStyled').prop('reset')).toBeTruthy()
   })
 
   it('should render the button text', () => {
