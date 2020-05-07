@@ -3,7 +3,7 @@ import theme from 'theme'
 
 export const Card = styled.div`
   border-radius: ${theme.radii.base};
-  border: ${theme.borders.thin} #f0f0f0;
+  border: ${theme.borders.thin} ${theme.colors.light};
   transition: box-shadow 0.2s;
   :hover {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.025),
