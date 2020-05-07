@@ -40,7 +40,7 @@ describe('Header', () => {
   })
 
   it('should render one instance of Button component with prop `text` equal to stop if isRandomRating true', () => {
-    expect(wrapper.find(Button).at(0).prop('text')).toEqual('stop')
+    expect(wrapper.find(Button).at(0).prop('text')).toEqual('stop rating')
   })
 
   it('should render one instance of Button component with prop `text` equal to `random rate` if isRandomRating false', () => {

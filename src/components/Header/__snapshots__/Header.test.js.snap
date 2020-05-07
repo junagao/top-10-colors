@@ -9,7 +9,7 @@ exports[`Header should render correctly given the required props 1`] = `
     <Button
       onClick={[MockFunction]}
       reset={false}
-      text="stop"
+      text="stop rating"
     />
     <Button
       onClick={[MockFunction]}
