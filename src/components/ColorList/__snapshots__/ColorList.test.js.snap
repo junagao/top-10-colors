@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorList should render correctly given the required props 1`] = `
+<List>
+  <li
+    key="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+  >
+    <ColorItem
+      hex="#FFA500"
+      id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+      name="orange"
+      onRate={[MockFunction]}
+      rating={3}
+      rgb="rgb(255, 165, 0)"
+    />
+  </li>
+  <li
+    key="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
+  >
+    <ColorItem
+      hex="#800080"
+      id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
+      name="purple"
+      onRate={[MockFunction]}
+      rating={5}
+      rgb="RGB(128, 0, 128)"
+    />
+  </li>
+</List>
+`;
