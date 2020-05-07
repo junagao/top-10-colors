@@ -14,7 +14,7 @@ const Header = ({
       <HeaderTitle>Top 10 favorite colors</HeaderTitle>
       <div>
         {isRandomRating ? (
-          <Button text="stop" onClick={stopRandomRating} />
+          <Button text="stop rating" onClick={stopRandomRating} />
         ) : (
           <Button text="random rate" onClick={startRandomRating} />
         )}
