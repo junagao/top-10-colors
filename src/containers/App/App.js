@@ -19,8 +19,9 @@ class App extends React.Component {
   }
 
   handleRating = (id, rating) => {
-    const { rateColor } = this.props
-    rateColor(id, rating)
+    const { colors, rateColor } = this.props
+    const color = colors.find((color) => color.id === id)
+    return color.rating === rating ? rateColor(id, 0) : rateColor(id, rating)
   }
 
   startRandomRating = () => {
