@@ -7,13 +7,13 @@ import RatingContainer from './Rating.styles'
 const Rating = ({ id, rating, totalStars, onRate }) => {
   return (
     <RatingContainer>
-      {[...Array(totalStars)].map((n, i) => (
+      {[...Array(totalStars)].map((star, starIndex) => (
         <Star
           key={uuidv4()}
           id={id}
-          index={i}
+          index={starIndex}
           onRate={onRate}
-          full={i < rating}
+          full={starIndex < rating}
         />
       ))}
     </RatingContainer>
