@@ -315,7 +315,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={0}
-                            key="31cd22e2-c80f-4f49-a7ea-ef3ba1508df9"
+                            key="086bff73-fdd7-4a58-8f81-d9f3d5c6cc01"
                             onRate={[Function]}
                           >
                             <StarIcon
@@ -371,7 +371,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={1}
-                            key="3ef4fb83-fdd1-4950-8f9b-9726b287b4e9"
+                            key="fe576bcf-02c6-459d-8dcb-1a962b53ddf8"
                             onRate={[Function]}
                           >
                             <StarIcon
@@ -427,7 +427,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={2}
-                            key="5325ea1c-bbec-47db-8fa6-575c2cbb381c"
+                            key="0372a7a1-85d4-4f24-a91b-6fccfd001a3a"
                             onRate={[Function]}
                           >
                             <StarIcon
@@ -483,7 +483,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={3}
-                            key="c5523661-d841-4669-a016-95baea65a4a5"
+                            key="52a448b8-31bf-43cd-9def-320350257cb1"
                             onRate={[Function]}
                           >
                             <StarIcon
@@ -539,7 +539,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={4}
-                            key="8e39f8d6-b707-4a3a-b88c-84e76dad3608"
+                            key="5f0e9d77-9076-474a-8321-52a011f94e10"
                             onRate={[Function]}
                           >
                             <StarIcon
@@ -655,7 +655,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={0}
-                            key="a62cdc25-eda3-4e18-b8b2-d4f4f2ce4011"
+                            key="ea45fc2b-b8c6-4662-a3ba-5ec3470dcbf1"
                             onRate={[Function]}
                           >
                             <StarIcon
@@ -711,7 +711,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={1}
-                            key="3a6cfb82-d662-4c97-9150-7da9921bdc24"
+                            key="270bd384-5673-4254-82c7-2a548ad8a685"
                             onRate={[Function]}
                           >
                             <StarIcon
@@ -767,7 +767,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={2}
-                            key="14a0bdb8-0ddf-45bf-b9fd-8ef5187e01bc"
+                            key="b3315369-6559-4591-9217-66bf9ab4441d"
                             onRate={[Function]}
                           >
                             <StarIcon
@@ -823,7 +823,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={false}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={3}
-                            key="27d50be9-ff4a-4231-a9cb-9f8d74338263"
+                            key="738ec8f3-28ff-4146-ae78-52088885351c"
                             onRate={[Function]}
                           >
                             <StarIcon
@@ -879,7 +879,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={false}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={4}
-                            key="74e22200-8623-41d6-a348-18252a35036a"
+                            key="616f8fd4-5859-4fed-be51-77b425fa5318"
                             onRate={[Function]}
                           >
                             <StarIcon

@@ -6,70 +6,70 @@ exports[`Rating should render correctly given the required props 1`] = `
     full={true}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={0}
-    key="c8501667-9a27-42e8-b3f4-b57b956a8b4b"
+    key="088edf68-bea1-4ae4-871d-7fc9ac748742"
     onRate={[MockFunction]}
   />
   <Star
     full={true}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={1}
-    key="3b7f0fed-7a58-4f11-a747-200d37f12251"
+    key="8c75c1fc-5d9c-4f78-aa23-8a4d4e8f2e6a"
     onRate={[MockFunction]}
   />
   <Star
     full={true}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={2}
-    key="34f4ae5b-4590-45f2-be63-7c6837597d83"
+    key="e513d74b-3272-4a5d-aa2f-41f1baaf8358"
     onRate={[MockFunction]}
   />
   <Star
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={3}
-    key="96a7c411-45e6-4cb0-9638-eb8a2e3e191b"
+    key="a874d0f7-454c-4ee7-9ecf-fa829380b2af"
     onRate={[MockFunction]}
   />
   <Star
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={4}
-    key="c2834dd7-3b51-40d0-8bc2-c0677f3ca4f5"
+    key="1ccd2d62-6fa6-4e1e-9282-3738ab9318ef"
     onRate={[MockFunction]}
   />
   <Star
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={5}
-    key="98268628-99c7-4b13-b2c3-9310c6914028"
+    key="872a444e-136c-48d5-b89b-e5e690423733"
     onRate={[MockFunction]}
   />
   <Star
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={6}
-    key="31c6d110-a9c3-4d94-b44d-2003dc2d2ca3"
+    key="1bd34875-c593-4358-9ae8-25ac29c1ecf0"
     onRate={[MockFunction]}
   />
   <Star
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={7}
-    key="92b93fca-903c-40ef-9227-b052bfbffb03"
+    key="95e8fb6c-a636-4357-b112-244c8118da95"
     onRate={[MockFunction]}
   />
   <Star
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={8}
-    key="102b3f1c-6b51-4ca7-a916-78cb754b7780"
+    key="dffb85d0-4e2c-4cb9-893e-c9d7f2a91713"
     onRate={[MockFunction]}
   />
   <Star
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={9}
-    key="7d3a338c-61bd-4c35-993f-efb451f5713a"
+    key="44b5c306-24b4-4deb-9728-2e5868adff9b"
     onRate={[MockFunction]}
   />
 </RatingContainer>
