@@ -13,7 +13,7 @@ import { Header, ColorList } from 'components'
 import AppContainer from './App.styles'
 
 let ratingTimer = null
-class App extends React.Component {
+export class App extends React.Component {
   componentDidMount() {
     const { getColors } = this.props
     getColors()
@@ -103,4 +103,6 @@ const mapDispatchToProps = {
   resetRatings,
 }
 
-export default hot(connect(mapStateToProps, mapDispatchToProps)(App))
+const connectedApp = hot(connect(mapStateToProps, mapDispatchToProps)(App))
+
+export default connectedApp

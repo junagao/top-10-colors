@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly given the required props 1`] = `
+<AppContainer>
+  <Header
+    isRandomRating={true}
+    onResetRatings={[Function]}
+    startRandomRating={[Function]}
+    stopRandomRating={[Function]}
+  />
+  <ColorList
+    colors={
+      Array [
+        Object {
+          "hex": "#800080",
+          "id": "b0e3fab2-0477-4e28-b2e0-c2281a21d09b",
+          "name": "purple",
+          "rating": 5,
+          "rgb": "RGB(128, 0, 128)",
+        },
+        Object {
+          "hex": "#FFA500",
+          "id": "fc352593-c91d-4cf6-b689-7478ee2b61c8",
+          "name": "orange",
+          "rating": 3,
+          "rgb": "rgb(255, 165, 0)",
+        },
+      ]
+    }
+    onRate={[Function]}
+  />
+</AppContainer>
+`;
