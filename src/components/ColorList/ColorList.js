@@ -1,6 +1,5 @@
 import React from 'react'
 import { arrayOf, shape, string, number, func } from 'prop-types'
-
 import { ColorItem } from 'components'
 import List from './ColorList.styles'
 
