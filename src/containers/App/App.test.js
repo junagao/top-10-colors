@@ -1,5 +1,5 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import { mount } from 'enzyme'
 import { Header, ColorList } from 'components'
 import { App } from './App'
 
@@ -24,7 +24,7 @@ describe('App', () => {
   ]
 
   beforeEach(() => {
-    wrapper = shallow(
+    wrapper = mount(
       <App
         colors={mockColors}
         getColors={jest.fn()}
@@ -42,7 +42,6 @@ describe('App', () => {
   })
 
   it('renders one AppContainer element', () => {
-    console.log(wrapper.debug())
     expect(wrapper.find('AppContainer').length).toEqual(1)
   })
 
@@ -52,5 +51,23 @@ describe('App', () => {
 
   it('shows one instance of ColorList', () => {
     expect(wrapper.find(ColorList).length).toEqual(1)
+  })
+
+  it('calls the resetRatings function when the reset button is clicked', () => {
+    const spy = jest.spyOn(wrapper.instance().props, 'resetRatings')
+    wrapper.find('ButtonStyled').at(1).simulate('click')
+    expect(spy).toHaveBeenCalled()
+  })
+
+  it('calls the rateColor function when the star icon is clicked', () => {
+    const spy = jest.spyOn(wrapper.instance().props, 'rateColor')
+    wrapper.find('StarIcon').at(1).simulate('click')
+    expect(spy).toHaveBeenCalled()
+  })
+
+  it('calls the toggleRandomRating functions when the random rate button is clicked', () => {
+    const spy = jest.spyOn(wrapper.instance().props, 'toggleRandomRating')
+    wrapper.find('ButtonStyled').at(0).simulate('click')
+    expect(spy).toHaveBeenCalled()
   })
 })
