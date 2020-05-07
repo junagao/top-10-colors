@@ -3,7 +3,13 @@
 exports[`Star should render correctly given the required props 1`] = `
 <StarIcon
   color="#ffc107"
+  onBlur={[Function]}
   onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseOut={[Function]}
+  onMouseOver={[Function]}
   size={20}
 />
 `;
