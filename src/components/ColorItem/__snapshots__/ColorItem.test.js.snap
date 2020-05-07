@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorItem should render correctly given the required props 1`] = `
+<Card>
+  <Preview
+    hex="#FFA500"
+  />
+  <Title>
+    orange
+  </Title>
+  <Text>
+    #FFA500
+  </Text>
+  <Text>
+    rgb(255, 165, 0)
+  </Text>
+  <Rating
+    id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+    onRate={[MockFunction]}
+    rating={3}
+    totalStars={5}
+  />
+</Card>
+`;
