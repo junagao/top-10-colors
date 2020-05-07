@@ -11,7 +11,13 @@ describe('Star', () => {
 
   beforeEach(() => {
     wrapper = shallow(
-      <Star id={idMock} index={indexMock} full onRate={onRateMock} />,
+      <Star
+        id={idMock}
+        index={indexMock}
+        full
+        onRate={onRateMock}
+        setOverride={jest.fn()}
+      />,
     )
   })
 
@@ -30,5 +36,9 @@ describe('Star', () => {
       'fc352593-c91d-4cf6-b689-7478ee2b61c8',
     )
     expect(onRateMock.mock.calls[0][1]).toEqual(5)
+  })
+
+  it('should render the correct star size', () => {
+    expect(wrapper.find('StarIcon').prop('size')).toEqual(20)
   })
 })

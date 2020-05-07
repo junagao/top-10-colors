@@ -121,8 +121,14 @@ exports[`App should render correctly given the required props 1`] = `
 
 .emotion-16 {
   cursor: pointer;
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  height: 1.5rem;
+  margin: 0 1px 0 1px;
+}
+
+.emotion-16:hover {
+  margin: 0;
 }
 
 .emotion-50 {
@@ -315,18 +321,31 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={0}
-                            key="086bff73-fdd7-4a58-8f81-d9f3d5c6cc01"
+                            key="f69c11aa-495c-4825-a286-95efb74999be"
                             onRate={[Function]}
+                            setOverride={[Function]}
                           >
                             <StarIcon
                               color="#ffc107"
+                              onBlur={[Function]}
                               onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
                               size={20}
                             >
                               <AiFillStar
                                 className="emotion-16 emotion-17"
                                 color="#ffc107"
+                                onBlur={[Function]}
                                 onClick={[Function]}
+                                onFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOut={[Function]}
+                                onMouseOver={[Function]}
                                 size={20}
                               >
                                 <IconBase
@@ -337,7 +356,13 @@ exports[`App should render correctly given the required props 1`] = `
                                   }
                                   className="emotion-16 emotion-17"
                                   color="#ffc107"
+                                  onBlur={[Function]}
                                   onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOut={[Function]}
+                                  onMouseOver={[Function]}
                                   size={20}
                                 >
                                   <svg
@@ -345,7 +370,13 @@ exports[`App should render correctly given the required props 1`] = `
                                     color="#ffc107"
                                     fill="currentColor"
                                     height={20}
+                                    onBlur={[Function]}
                                     onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOut={[Function]}
+                                    onMouseOver={[Function]}
                                     size={20}
                                     stroke="currentColor"
                                     strokeWidth="0"
@@ -371,18 +402,31 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={1}
-                            key="fe576bcf-02c6-459d-8dcb-1a962b53ddf8"
+                            key="df3e2b31-2d2c-417f-a105-b4319dbfc67f"
                             onRate={[Function]}
+                            setOverride={[Function]}
                           >
                             <StarIcon
                               color="#ffc107"
+                              onBlur={[Function]}
                               onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
                               size={20}
                             >
                               <AiFillStar
                                 className="emotion-16 emotion-17"
                                 color="#ffc107"
+                                onBlur={[Function]}
                                 onClick={[Function]}
+                                onFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOut={[Function]}
+                                onMouseOver={[Function]}
                                 size={20}
                               >
                                 <IconBase
@@ -393,7 +437,13 @@ exports[`App should render correctly given the required props 1`] = `
                                   }
                                   className="emotion-16 emotion-17"
                                   color="#ffc107"
+                                  onBlur={[Function]}
                                   onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOut={[Function]}
+                                  onMouseOver={[Function]}
                                   size={20}
                                 >
                                   <svg
@@ -401,7 +451,13 @@ exports[`App should render correctly given the required props 1`] = `
                                     color="#ffc107"
                                     fill="currentColor"
                                     height={20}
+                                    onBlur={[Function]}
                                     onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOut={[Function]}
+                                    onMouseOver={[Function]}
                                     size={20}
                                     stroke="currentColor"
                                     strokeWidth="0"
@@ -427,18 +483,31 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={2}
-                            key="0372a7a1-85d4-4f24-a91b-6fccfd001a3a"
+                            key="af403c9a-3cc7-4313-9bf4-237b6f406344"
                             onRate={[Function]}
+                            setOverride={[Function]}
                           >
                             <StarIcon
                               color="#ffc107"
+                              onBlur={[Function]}
                               onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
                               size={20}
                             >
                               <AiFillStar
                                 className="emotion-16 emotion-17"
                                 color="#ffc107"
+                                onBlur={[Function]}
                                 onClick={[Function]}
+                                onFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOut={[Function]}
+                                onMouseOver={[Function]}
                                 size={20}
                               >
                                 <IconBase
@@ -449,7 +518,13 @@ exports[`App should render correctly given the required props 1`] = `
                                   }
                                   className="emotion-16 emotion-17"
                                   color="#ffc107"
+                                  onBlur={[Function]}
                                   onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOut={[Function]}
+                                  onMouseOver={[Function]}
                                   size={20}
                                 >
                                   <svg
@@ -457,7 +532,13 @@ exports[`App should render correctly given the required props 1`] = `
                                     color="#ffc107"
                                     fill="currentColor"
                                     height={20}
+                                    onBlur={[Function]}
                                     onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOut={[Function]}
+                                    onMouseOver={[Function]}
                                     size={20}
                                     stroke="currentColor"
                                     strokeWidth="0"
@@ -483,18 +564,31 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={3}
-                            key="52a448b8-31bf-43cd-9def-320350257cb1"
+                            key="090fe7ce-fa97-47a4-b3f9-3f2317aa594f"
                             onRate={[Function]}
+                            setOverride={[Function]}
                           >
                             <StarIcon
                               color="#ffc107"
+                              onBlur={[Function]}
                               onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
                               size={20}
                             >
                               <AiFillStar
                                 className="emotion-16 emotion-17"
                                 color="#ffc107"
+                                onBlur={[Function]}
                                 onClick={[Function]}
+                                onFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOut={[Function]}
+                                onMouseOver={[Function]}
                                 size={20}
                               >
                                 <IconBase
@@ -505,7 +599,13 @@ exports[`App should render correctly given the required props 1`] = `
                                   }
                                   className="emotion-16 emotion-17"
                                   color="#ffc107"
+                                  onBlur={[Function]}
                                   onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOut={[Function]}
+                                  onMouseOver={[Function]}
                                   size={20}
                                 >
                                   <svg
@@ -513,7 +613,13 @@ exports[`App should render correctly given the required props 1`] = `
                                     color="#ffc107"
                                     fill="currentColor"
                                     height={20}
+                                    onBlur={[Function]}
                                     onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOut={[Function]}
+                                    onMouseOver={[Function]}
                                     size={20}
                                     stroke="currentColor"
                                     strokeWidth="0"
@@ -539,18 +645,31 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={4}
-                            key="5f0e9d77-9076-474a-8321-52a011f94e10"
+                            key="e92dd2f9-bfd6-497b-957f-0293566a725d"
                             onRate={[Function]}
+                            setOverride={[Function]}
                           >
                             <StarIcon
                               color="#ffc107"
+                              onBlur={[Function]}
                               onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
                               size={20}
                             >
                               <AiFillStar
                                 className="emotion-16 emotion-17"
                                 color="#ffc107"
+                                onBlur={[Function]}
                                 onClick={[Function]}
+                                onFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOut={[Function]}
+                                onMouseOver={[Function]}
                                 size={20}
                               >
                                 <IconBase
@@ -561,7 +680,13 @@ exports[`App should render correctly given the required props 1`] = `
                                   }
                                   className="emotion-16 emotion-17"
                                   color="#ffc107"
+                                  onBlur={[Function]}
                                   onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOut={[Function]}
+                                  onMouseOver={[Function]}
                                   size={20}
                                 >
                                   <svg
@@ -569,7 +694,13 @@ exports[`App should render correctly given the required props 1`] = `
                                     color="#ffc107"
                                     fill="currentColor"
                                     height={20}
+                                    onBlur={[Function]}
                                     onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOut={[Function]}
+                                    onMouseOver={[Function]}
                                     size={20}
                                     stroke="currentColor"
                                     strokeWidth="0"
@@ -655,18 +786,31 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={0}
-                            key="ea45fc2b-b8c6-4662-a3ba-5ec3470dcbf1"
+                            key="e98332ff-b696-4d74-a13f-713b9a1cb56a"
                             onRate={[Function]}
+                            setOverride={[Function]}
                           >
                             <StarIcon
                               color="#ffc107"
+                              onBlur={[Function]}
                               onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
                               size={20}
                             >
                               <AiFillStar
                                 className="emotion-16 emotion-17"
                                 color="#ffc107"
+                                onBlur={[Function]}
                                 onClick={[Function]}
+                                onFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOut={[Function]}
+                                onMouseOver={[Function]}
                                 size={20}
                               >
                                 <IconBase
@@ -677,7 +821,13 @@ exports[`App should render correctly given the required props 1`] = `
                                   }
                                   className="emotion-16 emotion-17"
                                   color="#ffc107"
+                                  onBlur={[Function]}
                                   onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOut={[Function]}
+                                  onMouseOver={[Function]}
                                   size={20}
                                 >
                                   <svg
@@ -685,7 +835,13 @@ exports[`App should render correctly given the required props 1`] = `
                                     color="#ffc107"
                                     fill="currentColor"
                                     height={20}
+                                    onBlur={[Function]}
                                     onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOut={[Function]}
+                                    onMouseOver={[Function]}
                                     size={20}
                                     stroke="currentColor"
                                     strokeWidth="0"
@@ -711,18 +867,31 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={1}
-                            key="270bd384-5673-4254-82c7-2a548ad8a685"
+                            key="5ac8d951-bfd4-4ba8-ab79-5494e3b368d1"
                             onRate={[Function]}
+                            setOverride={[Function]}
                           >
                             <StarIcon
                               color="#ffc107"
+                              onBlur={[Function]}
                               onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
                               size={20}
                             >
                               <AiFillStar
                                 className="emotion-16 emotion-17"
                                 color="#ffc107"
+                                onBlur={[Function]}
                                 onClick={[Function]}
+                                onFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOut={[Function]}
+                                onMouseOver={[Function]}
                                 size={20}
                               >
                                 <IconBase
@@ -733,7 +902,13 @@ exports[`App should render correctly given the required props 1`] = `
                                   }
                                   className="emotion-16 emotion-17"
                                   color="#ffc107"
+                                  onBlur={[Function]}
                                   onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOut={[Function]}
+                                  onMouseOver={[Function]}
                                   size={20}
                                 >
                                   <svg
@@ -741,7 +916,13 @@ exports[`App should render correctly given the required props 1`] = `
                                     color="#ffc107"
                                     fill="currentColor"
                                     height={20}
+                                    onBlur={[Function]}
                                     onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOut={[Function]}
+                                    onMouseOver={[Function]}
                                     size={20}
                                     stroke="currentColor"
                                     strokeWidth="0"
@@ -767,18 +948,31 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={2}
-                            key="b3315369-6559-4591-9217-66bf9ab4441d"
+                            key="de2ed5f0-1747-4e7e-bde0-505f70cbd0d9"
                             onRate={[Function]}
+                            setOverride={[Function]}
                           >
                             <StarIcon
                               color="#ffc107"
+                              onBlur={[Function]}
                               onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
                               size={20}
                             >
                               <AiFillStar
                                 className="emotion-16 emotion-17"
                                 color="#ffc107"
+                                onBlur={[Function]}
                                 onClick={[Function]}
+                                onFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOut={[Function]}
+                                onMouseOver={[Function]}
                                 size={20}
                               >
                                 <IconBase
@@ -789,7 +983,13 @@ exports[`App should render correctly given the required props 1`] = `
                                   }
                                   className="emotion-16 emotion-17"
                                   color="#ffc107"
+                                  onBlur={[Function]}
                                   onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOut={[Function]}
+                                  onMouseOver={[Function]}
                                   size={20}
                                 >
                                   <svg
@@ -797,7 +997,13 @@ exports[`App should render correctly given the required props 1`] = `
                                     color="#ffc107"
                                     fill="currentColor"
                                     height={20}
+                                    onBlur={[Function]}
                                     onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOut={[Function]}
+                                    onMouseOver={[Function]}
                                     size={20}
                                     stroke="currentColor"
                                     strokeWidth="0"
@@ -823,18 +1029,31 @@ exports[`App should render correctly given the required props 1`] = `
                             full={false}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={3}
-                            key="738ec8f3-28ff-4146-ae78-52088885351c"
+                            key="712f0b0c-8cc6-42d8-a622-1daa89cf3150"
                             onRate={[Function]}
+                            setOverride={[Function]}
                           >
                             <StarIcon
                               color="#e4e5e9"
+                              onBlur={[Function]}
                               onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
                               size={20}
                             >
                               <AiFillStar
                                 className="emotion-16 emotion-17"
                                 color="#e4e5e9"
+                                onBlur={[Function]}
                                 onClick={[Function]}
+                                onFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOut={[Function]}
+                                onMouseOver={[Function]}
                                 size={20}
                               >
                                 <IconBase
@@ -845,7 +1064,13 @@ exports[`App should render correctly given the required props 1`] = `
                                   }
                                   className="emotion-16 emotion-17"
                                   color="#e4e5e9"
+                                  onBlur={[Function]}
                                   onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOut={[Function]}
+                                  onMouseOver={[Function]}
                                   size={20}
                                 >
                                   <svg
@@ -853,7 +1078,13 @@ exports[`App should render correctly given the required props 1`] = `
                                     color="#e4e5e9"
                                     fill="currentColor"
                                     height={20}
+                                    onBlur={[Function]}
                                     onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOut={[Function]}
+                                    onMouseOver={[Function]}
                                     size={20}
                                     stroke="currentColor"
                                     strokeWidth="0"
@@ -879,18 +1110,31 @@ exports[`App should render correctly given the required props 1`] = `
                             full={false}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={4}
-                            key="616f8fd4-5859-4fed-be51-77b425fa5318"
+                            key="c7d214b1-90f7-4eb1-a6c1-8dbdc26d9dfe"
                             onRate={[Function]}
+                            setOverride={[Function]}
                           >
                             <StarIcon
                               color="#e4e5e9"
+                              onBlur={[Function]}
                               onClick={[Function]}
+                              onFocus={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOut={[Function]}
+                              onMouseOver={[Function]}
                               size={20}
                             >
                               <AiFillStar
                                 className="emotion-16 emotion-17"
                                 color="#e4e5e9"
+                                onBlur={[Function]}
                                 onClick={[Function]}
+                                onFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOut={[Function]}
+                                onMouseOver={[Function]}
                                 size={20}
                               >
                                 <IconBase
@@ -901,7 +1145,13 @@ exports[`App should render correctly given the required props 1`] = `
                                   }
                                   className="emotion-16 emotion-17"
                                   color="#e4e5e9"
+                                  onBlur={[Function]}
                                   onClick={[Function]}
+                                  onFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseOut={[Function]}
+                                  onMouseOver={[Function]}
                                   size={20}
                                 >
                                   <svg
@@ -909,7 +1159,13 @@ exports[`App should render correctly given the required props 1`] = `
                                     color="#e4e5e9"
                                     fill="currentColor"
                                     height={20}
+                                    onBlur={[Function]}
                                     onClick={[Function]}
+                                    onFocus={[Function]}
+                                    onMouseEnter={[Function]}
+                                    onMouseLeave={[Function]}
+                                    onMouseOut={[Function]}
+                                    onMouseOver={[Function]}
                                     size={20}
                                     stroke="currentColor"
                                     strokeWidth="0"
