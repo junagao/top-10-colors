@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly given the required props 1`] = `
+<HeaderContainer>
+  <HeaderTitle>
+    Top 10 favorite colors
+  </HeaderTitle>
+  <div>
+    <Button
+      onClick={[MockFunction]}
+      reset={false}
+      text="stop"
+    />
+    <Button
+      onClick={[MockFunction]}
+      reset={true}
+      text="reset ratings"
+    />
+  </div>
+</HeaderContainer>
+`;

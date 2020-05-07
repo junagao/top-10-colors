@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating should render correctly given the required props 1`] = `
+<RatingContainer>
+  <Star
+    full={true}
+    id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+    index={0}
+    key="088edf68-bea1-4ae4-871d-7fc9ac748742"
+    onRate={[MockFunction]}
+  />
+  <Star
+    full={true}
+    id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+    index={1}
+    key="8c75c1fc-5d9c-4f78-aa23-8a4d4e8f2e6a"
+    onRate={[MockFunction]}
+  />
+  <Star
+    full={true}
+    id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+    index={2}
+    key="e513d74b-3272-4a5d-aa2f-41f1baaf8358"
+    onRate={[MockFunction]}
+  />
+  <Star
+    full={false}
+    id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+    index={3}
+    key="a874d0f7-454c-4ee7-9ecf-fa829380b2af"
+    onRate={[MockFunction]}
+  />
+  <Star
+    full={false}
+    id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+    index={4}
+    key="1ccd2d62-6fa6-4e1e-9282-3738ab9318ef"
+    onRate={[MockFunction]}
+  />
+  <Star
+    full={false}
+    id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+    index={5}
+    key="872a444e-136c-48d5-b89b-e5e690423733"
+    onRate={[MockFunction]}
+  />
+  <Star
+    full={false}
+    id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+    index={6}
+    key="1bd34875-c593-4358-9ae8-25ac29c1ecf0"
+    onRate={[MockFunction]}
+  />
+  <Star
+    full={false}
+    id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+    index={7}
+    key="95e8fb6c-a636-4357-b112-244c8118da95"
+    onRate={[MockFunction]}
+  />
+  <Star
+    full={false}
+    id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+    index={8}
+    key="dffb85d0-4e2c-4cb9-893e-c9d7f2a91713"
+    onRate={[MockFunction]}
+  />
+  <Star
+    full={false}
+    id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+    index={9}
+    key="44b5c306-24b4-4deb-9728-2e5868adff9b"
+    onRate={[MockFunction]}
+  />
+</RatingContainer>
+`;

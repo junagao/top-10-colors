@@ -1,0 +1,947 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly given the required props 1`] = `
+.emotion-94 {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+@media (min-width:1920px) {
+  .emotion-94 {
+    max-width: 60vw;
+  }
+}
+
+.emotion-6 {
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-0 {
+  color: #262626;
+  font-size: 2rem;
+}
+
+.emotion-2 {
+  color: #595959;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  border: 0;
+  border: 1px solid #404040;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  outline: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1) 0s;
+  transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1) 0s;
+}
+
+.emotion-2:hover {
+  color: #f0f0f0;
+  background-color: #404040;
+  border: 1px solid #262626;
+}
+
+.emotion-4 {
+  color: #FF4D4F;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  border: 0;
+  border: 1px solid #FF4D4F;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+  padding: 1rem;
+  outline: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1) 0s;
+  transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1) 0s;
+}
+
+.emotion-4:hover {
+  color: #FF6E70;
+  background-color: #fff;
+  border: 1px solid #FF6E70;
+}
+
+.emotion-92 {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,12rem);
+  grid-gap: 1rem;
+  grid-row-gap: 2rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-48 {
+  border-radius: 0.25rem;
+  border: 1px solid #f0f0f0;
+  -webkit-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+}
+
+.emotion-48:hover {
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.025),0 4px 6px -3px rgba(0,0,0,0.05);
+}
+
+.emotion-8 {
+  height: 10rem;
+  background-color: #800080;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+
+.emotion-10 {
+  color: #404040;
+  font-family: Avenir,Roboto,Helvetica Neue,sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.emotion-12 {
+  font-size: 0.8rem;
+  color: #595959;
+  padding: 0 0.5rem;
+}
+
+.emotion-12:last-child {
+  margin-bottom: 0.5rem;
+}
+
+.emotion-46 {
+  padding: 0.5rem 0.5rem;
+}
+
+.emotion-16 {
+  cursor: pointer;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.emotion-50 {
+  height: 10rem;
+  background-color: #FFA500;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+
+<App
+  colors={
+    Array [
+      Object {
+        "hex": "#800080",
+        "id": "b0e3fab2-0477-4e28-b2e0-c2281a21d09b",
+        "name": "purple",
+        "rating": 5,
+        "rgb": "RGB(128, 0, 128)",
+      },
+      Object {
+        "hex": "#FFA500",
+        "id": "fc352593-c91d-4cf6-b689-7478ee2b61c8",
+        "name": "orange",
+        "rating": 3,
+        "rgb": "rgb(255, 165, 0)",
+      },
+    ]
+  }
+  getColors={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  isRandomRating={true}
+  randomRateColor={[MockFunction]}
+  rateColor={[MockFunction]}
+  resetRatings={[MockFunction]}
+  toggleRandomRating={[MockFunction]}
+>
+  <AppContainer>
+    <div
+      className="emotion-94 emotion-95"
+    >
+      <Header
+        isRandomRating={true}
+        onResetRatings={[Function]}
+        startRandomRating={[Function]}
+        stopRandomRating={[Function]}
+      >
+        <HeaderContainer>
+          <div
+            className="emotion-6 emotion-7"
+          >
+            <HeaderTitle>
+              <h1
+                className="emotion-0 emotion-1"
+              >
+                Top 10 favorite colors
+              </h1>
+            </HeaderTitle>
+            <div>
+              <Button
+                onClick={[Function]}
+                reset={false}
+                text="stop"
+              >
+                <ButtonStyled
+                  onClick={[Function]}
+                  reset={false}
+                  type="button"
+                >
+                  <button
+                    className="emotion-2 emotion-3"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    stop
+                  </button>
+                </ButtonStyled>
+              </Button>
+              <Button
+                onClick={[Function]}
+                reset={true}
+                text="reset ratings"
+              >
+                <ButtonStyled
+                  onClick={[Function]}
+                  reset={true}
+                  type="button"
+                >
+                  <button
+                    className="emotion-4 emotion-3"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    reset ratings
+                  </button>
+                </ButtonStyled>
+              </Button>
+            </div>
+          </div>
+        </HeaderContainer>
+      </Header>
+      <ColorList
+        colors={
+          Array [
+            Object {
+              "hex": "#800080",
+              "id": "b0e3fab2-0477-4e28-b2e0-c2281a21d09b",
+              "name": "purple",
+              "rating": 5,
+              "rgb": "RGB(128, 0, 128)",
+            },
+            Object {
+              "hex": "#FFA500",
+              "id": "fc352593-c91d-4cf6-b689-7478ee2b61c8",
+              "name": "orange",
+              "rating": 3,
+              "rgb": "rgb(255, 165, 0)",
+            },
+          ]
+        }
+        onRate={[Function]}
+      >
+        <List>
+          <ul
+            className="emotion-92 emotion-93"
+          >
+            <li
+              key="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
+            >
+              <ColorItem
+                hex="#800080"
+                id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
+                name="purple"
+                onRate={[Function]}
+                rating={5}
+                rgb="RGB(128, 0, 128)"
+              >
+                <Card>
+                  <div
+                    className="emotion-48 emotion-49"
+                  >
+                    <Preview
+                      hex="#800080"
+                    >
+                      <div
+                        className="emotion-8 emotion-9"
+                      />
+                    </Preview>
+                    <Title>
+                      <h2
+                        className="emotion-10 emotion-11"
+                      >
+                        purple
+                      </h2>
+                    </Title>
+                    <Text>
+                      <p
+                        className="emotion-12 emotion-13"
+                      >
+                        #800080
+                      </p>
+                    </Text>
+                    <Text>
+                      <p
+                        className="emotion-12 emotion-13"
+                      >
+                        RGB(128, 0, 128)
+                      </p>
+                    </Text>
+                    <Rating
+                      id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
+                      onRate={[Function]}
+                      rating={5}
+                      totalStars={5}
+                    >
+                      <RatingContainer>
+                        <div
+                          className="emotion-46 emotion-47"
+                        >
+                          <Star
+                            full={true}
+                            id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
+                            index={0}
+                            key="086bff73-fdd7-4a58-8f81-d9f3d5c6cc01"
+                            onRate={[Function]}
+                          >
+                            <StarIcon
+                              color="#ffc107"
+                              onClick={[Function]}
+                              size={20}
+                            >
+                              <AiFillStar
+                                className="emotion-16 emotion-17"
+                                color="#ffc107"
+                                onClick={[Function]}
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 1024 1024",
+                                    }
+                                  }
+                                  className="emotion-16 emotion-17"
+                                  color="#ffc107"
+                                  onClick={[Function]}
+                                  size={20}
+                                >
+                                  <svg
+                                    className="emotion-16 emotion-17"
+                                    color="#ffc107"
+                                    fill="currentColor"
+                                    height={20}
+                                    onClick={[Function]}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": "#ffc107",
+                                      }
+                                    }
+                                    viewBox="0 0 1024 1024"
+                                    width={20}
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </AiFillStar>
+                            </StarIcon>
+                          </Star>
+                          <Star
+                            full={true}
+                            id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
+                            index={1}
+                            key="fe576bcf-02c6-459d-8dcb-1a962b53ddf8"
+                            onRate={[Function]}
+                          >
+                            <StarIcon
+                              color="#ffc107"
+                              onClick={[Function]}
+                              size={20}
+                            >
+                              <AiFillStar
+                                className="emotion-16 emotion-17"
+                                color="#ffc107"
+                                onClick={[Function]}
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 1024 1024",
+                                    }
+                                  }
+                                  className="emotion-16 emotion-17"
+                                  color="#ffc107"
+                                  onClick={[Function]}
+                                  size={20}
+                                >
+                                  <svg
+                                    className="emotion-16 emotion-17"
+                                    color="#ffc107"
+                                    fill="currentColor"
+                                    height={20}
+                                    onClick={[Function]}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": "#ffc107",
+                                      }
+                                    }
+                                    viewBox="0 0 1024 1024"
+                                    width={20}
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </AiFillStar>
+                            </StarIcon>
+                          </Star>
+                          <Star
+                            full={true}
+                            id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
+                            index={2}
+                            key="0372a7a1-85d4-4f24-a91b-6fccfd001a3a"
+                            onRate={[Function]}
+                          >
+                            <StarIcon
+                              color="#ffc107"
+                              onClick={[Function]}
+                              size={20}
+                            >
+                              <AiFillStar
+                                className="emotion-16 emotion-17"
+                                color="#ffc107"
+                                onClick={[Function]}
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 1024 1024",
+                                    }
+                                  }
+                                  className="emotion-16 emotion-17"
+                                  color="#ffc107"
+                                  onClick={[Function]}
+                                  size={20}
+                                >
+                                  <svg
+                                    className="emotion-16 emotion-17"
+                                    color="#ffc107"
+                                    fill="currentColor"
+                                    height={20}
+                                    onClick={[Function]}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": "#ffc107",
+                                      }
+                                    }
+                                    viewBox="0 0 1024 1024"
+                                    width={20}
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </AiFillStar>
+                            </StarIcon>
+                          </Star>
+                          <Star
+                            full={true}
+                            id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
+                            index={3}
+                            key="52a448b8-31bf-43cd-9def-320350257cb1"
+                            onRate={[Function]}
+                          >
+                            <StarIcon
+                              color="#ffc107"
+                              onClick={[Function]}
+                              size={20}
+                            >
+                              <AiFillStar
+                                className="emotion-16 emotion-17"
+                                color="#ffc107"
+                                onClick={[Function]}
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 1024 1024",
+                                    }
+                                  }
+                                  className="emotion-16 emotion-17"
+                                  color="#ffc107"
+                                  onClick={[Function]}
+                                  size={20}
+                                >
+                                  <svg
+                                    className="emotion-16 emotion-17"
+                                    color="#ffc107"
+                                    fill="currentColor"
+                                    height={20}
+                                    onClick={[Function]}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": "#ffc107",
+                                      }
+                                    }
+                                    viewBox="0 0 1024 1024"
+                                    width={20}
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </AiFillStar>
+                            </StarIcon>
+                          </Star>
+                          <Star
+                            full={true}
+                            id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
+                            index={4}
+                            key="5f0e9d77-9076-474a-8321-52a011f94e10"
+                            onRate={[Function]}
+                          >
+                            <StarIcon
+                              color="#ffc107"
+                              onClick={[Function]}
+                              size={20}
+                            >
+                              <AiFillStar
+                                className="emotion-16 emotion-17"
+                                color="#ffc107"
+                                onClick={[Function]}
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 1024 1024",
+                                    }
+                                  }
+                                  className="emotion-16 emotion-17"
+                                  color="#ffc107"
+                                  onClick={[Function]}
+                                  size={20}
+                                >
+                                  <svg
+                                    className="emotion-16 emotion-17"
+                                    color="#ffc107"
+                                    fill="currentColor"
+                                    height={20}
+                                    onClick={[Function]}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": "#ffc107",
+                                      }
+                                    }
+                                    viewBox="0 0 1024 1024"
+                                    width={20}
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </AiFillStar>
+                            </StarIcon>
+                          </Star>
+                        </div>
+                      </RatingContainer>
+                    </Rating>
+                  </div>
+                </Card>
+              </ColorItem>
+            </li>
+            <li
+              key="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+            >
+              <ColorItem
+                hex="#FFA500"
+                id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+                name="orange"
+                onRate={[Function]}
+                rating={3}
+                rgb="rgb(255, 165, 0)"
+              >
+                <Card>
+                  <div
+                    className="emotion-48 emotion-49"
+                  >
+                    <Preview
+                      hex="#FFA500"
+                    >
+                      <div
+                        className="emotion-50 emotion-9"
+                      />
+                    </Preview>
+                    <Title>
+                      <h2
+                        className="emotion-10 emotion-11"
+                      >
+                        orange
+                      </h2>
+                    </Title>
+                    <Text>
+                      <p
+                        className="emotion-12 emotion-13"
+                      >
+                        #FFA500
+                      </p>
+                    </Text>
+                    <Text>
+                      <p
+                        className="emotion-12 emotion-13"
+                      >
+                        rgb(255, 165, 0)
+                      </p>
+                    </Text>
+                    <Rating
+                      id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+                      onRate={[Function]}
+                      rating={3}
+                      totalStars={5}
+                    >
+                      <RatingContainer>
+                        <div
+                          className="emotion-46 emotion-47"
+                        >
+                          <Star
+                            full={true}
+                            id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+                            index={0}
+                            key="ea45fc2b-b8c6-4662-a3ba-5ec3470dcbf1"
+                            onRate={[Function]}
+                          >
+                            <StarIcon
+                              color="#ffc107"
+                              onClick={[Function]}
+                              size={20}
+                            >
+                              <AiFillStar
+                                className="emotion-16 emotion-17"
+                                color="#ffc107"
+                                onClick={[Function]}
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 1024 1024",
+                                    }
+                                  }
+                                  className="emotion-16 emotion-17"
+                                  color="#ffc107"
+                                  onClick={[Function]}
+                                  size={20}
+                                >
+                                  <svg
+                                    className="emotion-16 emotion-17"
+                                    color="#ffc107"
+                                    fill="currentColor"
+                                    height={20}
+                                    onClick={[Function]}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": "#ffc107",
+                                      }
+                                    }
+                                    viewBox="0 0 1024 1024"
+                                    width={20}
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </AiFillStar>
+                            </StarIcon>
+                          </Star>
+                          <Star
+                            full={true}
+                            id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+                            index={1}
+                            key="270bd384-5673-4254-82c7-2a548ad8a685"
+                            onRate={[Function]}
+                          >
+                            <StarIcon
+                              color="#ffc107"
+                              onClick={[Function]}
+                              size={20}
+                            >
+                              <AiFillStar
+                                className="emotion-16 emotion-17"
+                                color="#ffc107"
+                                onClick={[Function]}
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 1024 1024",
+                                    }
+                                  }
+                                  className="emotion-16 emotion-17"
+                                  color="#ffc107"
+                                  onClick={[Function]}
+                                  size={20}
+                                >
+                                  <svg
+                                    className="emotion-16 emotion-17"
+                                    color="#ffc107"
+                                    fill="currentColor"
+                                    height={20}
+                                    onClick={[Function]}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": "#ffc107",
+                                      }
+                                    }
+                                    viewBox="0 0 1024 1024"
+                                    width={20}
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </AiFillStar>
+                            </StarIcon>
+                          </Star>
+                          <Star
+                            full={true}
+                            id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+                            index={2}
+                            key="b3315369-6559-4591-9217-66bf9ab4441d"
+                            onRate={[Function]}
+                          >
+                            <StarIcon
+                              color="#ffc107"
+                              onClick={[Function]}
+                              size={20}
+                            >
+                              <AiFillStar
+                                className="emotion-16 emotion-17"
+                                color="#ffc107"
+                                onClick={[Function]}
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 1024 1024",
+                                    }
+                                  }
+                                  className="emotion-16 emotion-17"
+                                  color="#ffc107"
+                                  onClick={[Function]}
+                                  size={20}
+                                >
+                                  <svg
+                                    className="emotion-16 emotion-17"
+                                    color="#ffc107"
+                                    fill="currentColor"
+                                    height={20}
+                                    onClick={[Function]}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": "#ffc107",
+                                      }
+                                    }
+                                    viewBox="0 0 1024 1024"
+                                    width={20}
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </AiFillStar>
+                            </StarIcon>
+                          </Star>
+                          <Star
+                            full={false}
+                            id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+                            index={3}
+                            key="738ec8f3-28ff-4146-ae78-52088885351c"
+                            onRate={[Function]}
+                          >
+                            <StarIcon
+                              color="#e4e5e9"
+                              onClick={[Function]}
+                              size={20}
+                            >
+                              <AiFillStar
+                                className="emotion-16 emotion-17"
+                                color="#e4e5e9"
+                                onClick={[Function]}
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 1024 1024",
+                                    }
+                                  }
+                                  className="emotion-16 emotion-17"
+                                  color="#e4e5e9"
+                                  onClick={[Function]}
+                                  size={20}
+                                >
+                                  <svg
+                                    className="emotion-16 emotion-17"
+                                    color="#e4e5e9"
+                                    fill="currentColor"
+                                    height={20}
+                                    onClick={[Function]}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": "#e4e5e9",
+                                      }
+                                    }
+                                    viewBox="0 0 1024 1024"
+                                    width={20}
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </AiFillStar>
+                            </StarIcon>
+                          </Star>
+                          <Star
+                            full={false}
+                            id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
+                            index={4}
+                            key="616f8fd4-5859-4fed-be51-77b425fa5318"
+                            onRate={[Function]}
+                          >
+                            <StarIcon
+                              color="#e4e5e9"
+                              onClick={[Function]}
+                              size={20}
+                            >
+                              <AiFillStar
+                                className="emotion-16 emotion-17"
+                                color="#e4e5e9"
+                                onClick={[Function]}
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 1024 1024",
+                                    }
+                                  }
+                                  className="emotion-16 emotion-17"
+                                  color="#e4e5e9"
+                                  onClick={[Function]}
+                                  size={20}
+                                >
+                                  <svg
+                                    className="emotion-16 emotion-17"
+                                    color="#e4e5e9"
+                                    fill="currentColor"
+                                    height={20}
+                                    onClick={[Function]}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": "#e4e5e9",
+                                      }
+                                    }
+                                    viewBox="0 0 1024 1024"
+                                    width={20}
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <path
+                                      d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </AiFillStar>
+                            </StarIcon>
+                          </Star>
+                        </div>
+                      </RatingContainer>
+                    </Rating>
+                  </div>
+                </Card>
+              </ColorItem>
+            </li>
+          </ul>
+        </List>
+      </ColorList>
+    </div>
+  </AppContainer>
+</App>
+`;

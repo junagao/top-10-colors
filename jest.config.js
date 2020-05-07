@@ -5,7 +5,7 @@ module.exports = {
   transform: {
     '^.+\\.js$': 'babel-jest',
   },
-  snapshotSerializers: ['enzyme-to-json/serializer'],
+  snapshotSerializers: ['enzyme-to-json/serializer', 'jest-emotion'],
   collectCoverageFrom: [
     './src/**/*.js',
     '!**/node_modules/**',
