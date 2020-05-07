@@ -15,9 +15,9 @@ const Star = ({ id, index, full, onRate }) => {
 }
 
 Star.propTypes = {
-  full: bool.isRequired,
   id: string.isRequired,
   index: number.isRequired,
+  full: bool.isRequired,
   onRate: func.isRequired,
 }
 

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Star should render correctly given the required props 1`] = `
+<StarIcon
+  color="#ffc107"
+  onClick={[Function]}
+  size={20}
+/>
+`;
