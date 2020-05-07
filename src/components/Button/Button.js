@@ -1,22 +1,21 @@
 import React from 'react'
-import { bool, func } from 'prop-types'
+import { string, bool, func } from 'prop-types'
 import ButtonStyled from './Button.styles'
 
-const Button = ({ isRandomRating, startRandomRating, stopRandomRating }) =>
-  isRandomRating ? (
-    <ButtonStyled type="button" onClick={stopRandomRating}>
-      stop
-    </ButtonStyled>
-  ) : (
-    <ButtonStyled type="button" onClick={startRandomRating}>
-      random rate
-    </ButtonStyled>
-  )
+const Button = ({ text, reset, onClick }) => (
+  <ButtonStyled type="button" reset={reset} onClick={onClick}>
+    {text}
+  </ButtonStyled>
+)
 
 Button.propTypes = {
-  isRandomRating: bool.isRequired,
-  startRandomRating: func.isRequired,
-  stopRandomRating: func.isRequired,
+  text: string.isRequired,
+  reset: bool,
+  onClick: func.isRequired,
+}
+
+Button.defaultProps = {
+  reset: false,
 }
 
 export default Button

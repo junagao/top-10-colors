@@ -7,6 +7,7 @@ import {
   rateColor,
   randomRateColor,
   toggleRandomRating,
+  resetRatings,
 } from 'actions/colors'
 import { Header, ColorList } from 'components'
 import AppContainer from './App.styles'
@@ -22,6 +23,11 @@ class App extends React.Component {
     const { colors, rateColor } = this.props
     const color = colors.find((color) => color.id === id)
     return color.rating === rating ? rateColor(id, 0) : rateColor(id, rating)
+  }
+
+  handleResetRatings = () => {
+    const { resetRatings } = this.props
+    resetRatings()
   }
 
   startRandomRating = () => {
@@ -62,6 +68,7 @@ class App extends React.Component {
           isRandomRating={isRandomRating}
           startRandomRating={this.startRandomRating}
           stopRandomRating={this.stopRandomRating}
+          onResetRatings={this.handleResetRatings}
         />
         <ColorList
           colors={sortedColors}
@@ -80,6 +87,7 @@ App.propTypes = {
   isRandomRating: bool.isRequired,
   randomRateColor: func.isRequired,
   toggleRandomRating: func.isRequired,
+  resetRatings: func.isRequired,
 }
 
 const mapStateToProps = (state) => ({
@@ -92,6 +100,7 @@ const mapDispatchToProps = {
   rateColor,
   randomRateColor,
   toggleRandomRating,
+  resetRatings,
 }
 
 export default hot(connect(mapStateToProps, mapDispatchToProps)(App))
