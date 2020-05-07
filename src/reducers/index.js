@@ -3,6 +3,7 @@ import {
   RATE_COLOR,
   RANDOM_RATE_COLOR,
   TOGGLE_RANDOM_RATING,
+  RESET_RATINGS,
 } from '../actions/types'
 
 const initialState = {
@@ -30,6 +31,13 @@ export default function reducer(state = initialState, action) {
     }
     case TOGGLE_RANDOM_RATING:
       return { ...state, isRandomRating: !state.isRandomRating }
+    case RESET_RATINGS: {
+      const updatedColors = state.colors.map((color) => ({
+        ...color,
+        rating: 0,
+      }))
+      return { ...state, colors: updatedColors }
+    }
     default:
       return state
   }
