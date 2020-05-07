@@ -1,15 +1,16 @@
 import React from 'react'
 import { bool, func } from 'prop-types'
+import ButtonStyled from './Button.styles'
 
 const Button = ({ isRandomRating, startRandomRating, stopRandomRating }) =>
   isRandomRating ? (
-    <button type="button" onClick={stopRandomRating}>
+    <ButtonStyled type="button" onClick={stopRandomRating}>
       stop
-    </button>
+    </ButtonStyled>
   ) : (
-    <button type="button" onClick={startRandomRating}>
+    <ButtonStyled type="button" onClick={startRandomRating}>
       random rate
-    </button>
+    </ButtonStyled>
   )
 
 Button.propTypes = {
