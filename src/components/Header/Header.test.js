@@ -27,7 +27,7 @@ describe('Header', () => {
   it('should render one HeaderTitle element with the title', () => {
     expect(wrapper.find('HeaderTitle').length).toEqual(1)
     expect(wrapper.find('HeaderTitle').children().text()).toEqual(
-      'Top 10 favorite colors',
+      'Top 10 colors',
     )
   })
 
