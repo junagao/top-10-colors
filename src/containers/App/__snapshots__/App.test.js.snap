@@ -193,7 +193,7 @@ exports[`App should render correctly given the required props 1`] = `
               <h1
                 className="emotion-0 emotion-1"
               >
-                Top 10 favorite colors
+                Top 10 colors
               </h1>
             </HeaderTitle>
             <div>
@@ -321,7 +321,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={0}
-                            key="d2b01ad2-b55f-45a3-9938-93e773af4ce8"
+                            key="9f694428-3963-45e0-83da-512400010d06"
                             onRate={[Function]}
                             setOverride={[Function]}
                           >
@@ -402,7 +402,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={1}
-                            key="00ac6209-41d0-4184-a152-0d1aa4f8f4da"
+                            key="f625b9f4-b734-467b-865b-dcfe59cd6359"
                             onRate={[Function]}
                             setOverride={[Function]}
                           >
@@ -483,7 +483,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={2}
-                            key="906adcf7-fb60-4bde-921d-ee6fed59f17b"
+                            key="6984b56b-2b02-4165-82c2-1399005a5d01"
                             onRate={[Function]}
                             setOverride={[Function]}
                           >
@@ -564,7 +564,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={3}
-                            key="5577fdf7-4d27-4888-8133-60d18ace0862"
+                            key="77a79b73-dcd7-49c0-9996-9d22566dac06"
                             onRate={[Function]}
                             setOverride={[Function]}
                           >
@@ -645,7 +645,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="b0e3fab2-0477-4e28-b2e0-c2281a21d09b"
                             index={4}
-                            key="60e42a09-9970-4c0a-a5a7-f96ffef986bf"
+                            key="9c766b64-c3c8-4c83-b603-3c357c38512e"
                             onRate={[Function]}
                             setOverride={[Function]}
                           >
@@ -786,7 +786,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={0}
-                            key="1709f2f1-c63f-45a1-a8ad-e71b349ec953"
+                            key="70b52302-e30c-4715-82c8-a36019ce6da3"
                             onRate={[Function]}
                             setOverride={[Function]}
                           >
@@ -867,7 +867,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={1}
-                            key="2ea33032-e8bb-4d89-b7a8-c56fb640805d"
+                            key="f651c0e2-de19-457b-b43e-86630be1bded"
                             onRate={[Function]}
                             setOverride={[Function]}
                           >
@@ -948,7 +948,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={true}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={2}
-                            key="dcd177e5-8639-4fbd-b800-110209cf6e0f"
+                            key="eecffa13-e452-4b9e-a66e-fa92b544d563"
                             onRate={[Function]}
                             setOverride={[Function]}
                           >
@@ -1029,7 +1029,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={false}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={3}
-                            key="043918b9-b8f2-45f1-b464-7149d3226b0e"
+                            key="efc35938-3455-472a-9d32-f08b80e0b6c2"
                             onRate={[Function]}
                             setOverride={[Function]}
                           >
@@ -1110,7 +1110,7 @@ exports[`App should render correctly given the required props 1`] = `
                             full={false}
                             id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
                             index={4}
-                            key="c4b84117-4896-41c8-9a54-e54bb865c836"
+                            key="24a9a5d4-4757-44d1-ad10-80a96a0a0c9c"
                             onRate={[Function]}
                             setOverride={[Function]}
                           >

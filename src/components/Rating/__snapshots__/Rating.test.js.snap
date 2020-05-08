@@ -6,7 +6,7 @@ exports[`Rating should render correctly given the required props 1`] = `
     full={true}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={0}
-    key="22072cf9-389b-4be3-9a9e-8b629624cd7f"
+    key="abc41ef2-946a-4b2b-b176-5f27ce984d28"
     onRate={[MockFunction]}
     setOverride={[Function]}
   />
@@ -14,7 +14,7 @@ exports[`Rating should render correctly given the required props 1`] = `
     full={true}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={1}
-    key="52a0dd5f-2da0-49fc-80b5-661222dff7c2"
+    key="98e00594-8e30-4e5d-83e3-25b4122ca140"
     onRate={[MockFunction]}
     setOverride={[Function]}
   />
@@ -22,7 +22,7 @@ exports[`Rating should render correctly given the required props 1`] = `
     full={true}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={2}
-    key="239c93fd-8b64-4e5f-9ca7-b8fc61dfb93d"
+    key="151b99c1-90bc-4576-be00-a8b8fec018f2"
     onRate={[MockFunction]}
     setOverride={[Function]}
   />
@@ -30,7 +30,7 @@ exports[`Rating should render correctly given the required props 1`] = `
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={3}
-    key="21f9c5fe-60cd-47a5-b314-30dff531cc32"
+    key="d5b3cffd-7fed-4dc2-9cb9-17e5fc599db1"
     onRate={[MockFunction]}
     setOverride={[Function]}
   />
@@ -38,7 +38,7 @@ exports[`Rating should render correctly given the required props 1`] = `
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={4}
-    key="fc9215e5-ff60-4005-b8bd-03b8019a504d"
+    key="5c38ad3c-9b4a-4384-aed8-76238a7d4f6d"
     onRate={[MockFunction]}
     setOverride={[Function]}
   />
@@ -46,7 +46,7 @@ exports[`Rating should render correctly given the required props 1`] = `
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={5}
-    key="8843af6f-5fcd-42d5-a424-7e5b8080e9e6"
+    key="5d091beb-0229-445e-8316-4f8dbdd7f80a"
     onRate={[MockFunction]}
     setOverride={[Function]}
   />
@@ -54,7 +54,7 @@ exports[`Rating should render correctly given the required props 1`] = `
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={6}
-    key="f4d3f1e3-b85d-44b1-baa1-1c881412aaf3"
+    key="4355793c-6006-4c37-8c10-ff2c4952aa53"
     onRate={[MockFunction]}
     setOverride={[Function]}
   />
@@ -62,7 +62,7 @@ exports[`Rating should render correctly given the required props 1`] = `
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={7}
-    key="1fa2d76a-db76-4f5c-b336-22add89abe50"
+    key="14d685f6-dc14-44ec-a137-212f75d41243"
     onRate={[MockFunction]}
     setOverride={[Function]}
   />
@@ -70,7 +70,7 @@ exports[`Rating should render correctly given the required props 1`] = `
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={8}
-    key="2cdfa017-2c64-47c2-bd44-eb6ee972b439"
+    key="db9031e6-f703-4f71-b9e4-ef6bd1c7aa08"
     onRate={[MockFunction]}
     setOverride={[Function]}
   />
@@ -78,7 +78,7 @@ exports[`Rating should render correctly given the required props 1`] = `
     full={false}
     id="fc352593-c91d-4cf6-b689-7478ee2b61c8"
     index={9}
-    key="a8ce6334-ae3d-4c9c-94e0-d1e261978300"
+    key="2ba3850a-b508-448e-9434-964e8a4c7ba1"
     onRate={[MockFunction]}
     setOverride={[Function]}
   />
