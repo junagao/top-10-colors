@@ -11,7 +11,7 @@ const Header = ({
 }) => {
   return (
     <HeaderContainer>
-      <HeaderTitle>Top 10 favorite colors</HeaderTitle>
+      <HeaderTitle>Top 10 colors</HeaderTitle>
       <div>
         {isRandomRating ? (
           <Button text="stop rating" onClick={stopRandomRating} />
