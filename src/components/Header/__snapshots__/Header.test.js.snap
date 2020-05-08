@@ -3,7 +3,7 @@
 exports[`Header should render correctly given the required props 1`] = `
 <HeaderContainer>
   <HeaderTitle>
-    Top 10 favorite colors
+    Top 10 colors
   </HeaderTitle>
   <div>
     <Button

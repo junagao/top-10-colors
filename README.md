@@ -6,6 +6,8 @@ Random rating will happen when you click the random rate button which will pick 
 
 ## 👀 Preview
 
+https://top10colors.now.sh/
+
 ![top-10-colors-png](./assets/top-10-colors-preview.png)
 
 ## 🚀 Quick start
